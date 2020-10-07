@@ -19,4 +19,4 @@ def logisticReg(data, target, reshape = 0, testProportion = 0.2):
     predY = regClassifier.predict(testX)
 
     sklearn.metrics.plot_confusion_matrix(regClassifier,testX,testY)
-    pyploy.show()
+    pyplot.show()
